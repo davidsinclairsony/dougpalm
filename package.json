@@ -1,0 +1,16 @@
+{
+  "name": "dougpalm",
+  "description": "Personal website of Doug Palm",
+  "author": "Doug Palm <mail@dougpalm.com> (http://dougpalm.com)",
+  "homepage": "dougpalm.com",
+  "ec2domain": "ec2-34-229-114-221.compute-1.amazonaws.com",
+  "scripts": {
+    "deploy": "serverless deploy",
+    "destroy": "serverless remove",
+    "domainInfo": "serverless domainInfo",
+    "invalidate": "serverless invalidate"
+  },
+  "dependencies": {
+    "serverless": "1.6.0"
+  }
+}
