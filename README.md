@@ -1,5 +1,5 @@
 # dougpalm
-Personal website of Doug Palm
+Personal website of Doug Palm that uses EC2 and 
 
 ## deployment
 - Serverless deployment with `yarn deploy`
@@ -7,7 +7,7 @@ Personal website of Doug Palm
 - Serverless removal with `yarn destroy`
 
 # setup instructions
-1. Create EC2 instance
+1. Create EC2 instance from [WordPress powered by Bitnami](https://aws.amazon.com/marketplace/pp/B007IP8BKQ)
 2. Configure `package.json`
 3. Execute `yarn deployment`
 4. Install WP Migrate DB and generate original and new SQL files for domain
