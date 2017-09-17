@@ -1,5 +1,5 @@
 # dougpalm
-Personal website of Doug Palm that uses AWS EC2 and CloudFront
+Wordpress website of Doug Palm that uses AWS EC2 and CloudFront
 
 ## deployment
 - Serverless deployment with `yarn deploy`
